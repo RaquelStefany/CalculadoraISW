@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+    <script src="calculadora.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_package_v0.16//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16//favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_package_v0.16//site.webmanifest">
+    <link rel="mask-icon" href="img/favicon_package_v0.16//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container p-3 my-3 bg-dark text-white">
+        <h1 id="titulo">
+            CALCULADORA
+        </h1>
+        <form name="form">
+            <input class="textview" name="textview">
+            <br>
+            <br>
+            <div>
+                <input type="button" class="button" onclick="c()" value="C">
+                <input type="button" class="button" onclick="back()" value="<">
+                <input type="button" class="button" onclick="insert('/')" value="/">
+                <input type="button" class="button" onclick="insert('*')" value="*">
+                <br>
+                <br>
+                <input type="button" class="button" onclick="insert(7)" value="7">
+                <input type="button" class="button" onclick="insert(8)" value="8">
+                <input type="button" class="button" onclick="insert(9)" value="9">
+                <input type="button" class="button" onclick="insert('+')" value="+">
+                <br>
+                <br>
+                <input type="button" class="button" onclick="insert(4)" value="4">
+                <input type="button" class="button" onclick="insert(5)" value="5">
+                <input type="button" class="button" onclick="insert(6)" value="6">
+                <input type="button" class="button" onclick="insert('-')" value="-">
+                <br>
+                <br>
+                <input type="button" class="button" onclick="insert(1)" value="1">
+                <input type="button" class="button" onclick="insert(2)" value="2">
+                <input type="button" class="button" onclick="insert(3)" value="3">
+                <input type="button" class="button" onclick="equal()" value="=">
+                <br>
+                <br>
+                <input type="hidden">
+                <input type="button" class="button" onclick="insert(0)" value="0" style="padding: 3vmin 9vmin; width: auto;">
+                <input type="button" class="button" onclick="insert('.')" value=".">
+            </div>
+            <input type="hidden">
+        </form>
+    </div>
+    <footer id="footer">
+        By Raquel Stefany
+    </footer>
+</body>
+
+</html>

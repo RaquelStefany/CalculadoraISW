@@ -1,0 +1,65 @@
+body {
+    background-image: url(img/quadro-negro-inscrito-com-formulas-e-calculos-cientificos_1150-19413.jpg);
+}
+
+.container {
+    text-align: center;
+    border-radius: 5%;
+    width: 60vmin;
+    margin: auto;
+    margin-top: 10vmin !important;
+    padding: 2rem 0 3rem !important;
+    box-shadow: 0px 0px 20px 20px black;
+}
+
+#titulo {
+    font-family: fantasy, sans-serif;
+    font-size: 7vmin;
+    margin-bottom: 1.5rem;
+}
+
+.textview {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vmin;
+    text-align: right;
+    width: 40vmin;
+    height: 6vmin;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.button {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    border-radius: 10px;
+    line-height: 1vmin;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 8vmin;
+    font-size: 4vmin;
+    padding: 3vmin;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 0 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: -.2rem .1rem;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center !important;
+    color: red;
+    bottom: 0px;
+    position: absolute;
+}
